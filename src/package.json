@@ -1,0 +1,17 @@
+{
+  "name": "authentication_tu_torneo",
+  "version": "0.1.0",
+  "bin": {
+    "authentication_tu_torneo": "bin/authentication_tu_torneo.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.556.0"
+  }
+}
